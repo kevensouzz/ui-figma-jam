@@ -34,7 +34,7 @@ const INITIAL_NODES = [
   },
 ] satisfies Node[];
 
-function App() {
+const App = () => {
   const [edges, setEdges, onEdgesChanges] = useEdgesState([]);
   const [nodes, setNodes, onNodesChange] = useNodesState(INITIAL_NODES);
 
